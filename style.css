@@ -1,0 +1,37 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    align-items: center;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+li {
+
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    
+}
