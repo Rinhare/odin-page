@@ -25,10 +25,6 @@ ul {
     gap: 30px;
 }
 
-li {
-
-}
-
 a {
     font-size: 18px;
     color: #e5e7eb;
@@ -82,7 +78,7 @@ button {
     background-color: #3882f6;
     font-size: 16px;
     color: white;
-    width: 88px;
+    width: 95px;
     height: 28px;
     border-radius: 5px;
     border: 0;
@@ -97,8 +93,8 @@ button {
 }
 
 .mid-title {
-    size: 36px;
-    font-weight: 600;
+    font-size: 36px;
+    font-weight: 800;
     color: #1d2937;
     flex: 1;
     padding: 30px;
@@ -106,7 +102,7 @@ button {
 
 .card-panel {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 50px;
@@ -127,4 +123,59 @@ button {
     height: 150px;
     border: 5px solid #3882f6;
     border-radius: 5px;
+}
+
+.quote-panel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: end;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    padding: 10vh 25vw 10vh 25vw;
+}
+
+.signature {
+    font-weight: 600;
+}
+
+.bottom-panel {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 2vw 5vh 2vw;
+    background-color: #3882f6;
+    margin: 10vh 10vw 10vh 10vw;
+    border-radius: 10px;
+}
+
+.bottomtext {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color:#f9faf8
+}
+
+.bottom-main-text {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.bottom-secondary-text{
+    font-size: 18px;
+}
+
+.button > button {
+    border: 1px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1d2937;
+    color: #e5e7eb;
+    padding: 30px;
 }
