@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: 'Times New Roman', Times, serif
 }
 
 
@@ -86,4 +87,44 @@ button {
     border-radius: 5px;
     border: 0;
     margin-top: 10px;
+}
+
+.mid-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-title {
+    size: 36px;
+    font-weight: 600;
+    color: #1d2937;
+    flex: 1;
+    padding: 30px;
+}
+
+.card-panel {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-bottom: 10vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+}
+
+ .card > img {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 5px;
 }
