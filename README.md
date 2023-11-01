@@ -1,2 +1,4 @@
 # odin-page
-Make a page from the picture exercise 
+Odin project landing page exercise. plan was to to create landing page from design.
+
+images source: Pixabay 
