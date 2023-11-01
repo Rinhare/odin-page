@@ -99,12 +99,18 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(pictures/thunderstorm.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 .mid-title {
     font-size: 36px;
     font-weight: 800;
-    color: #1d2937;
+    color: #f9faf8;
     flex: 1;
     padding: 30px;
 }
@@ -116,6 +122,7 @@ button {
     flex-wrap: wrap;
     gap: 50px;
     margin-bottom: 10vh;
+    color:#f9faf8;
 }
 
 .card {
